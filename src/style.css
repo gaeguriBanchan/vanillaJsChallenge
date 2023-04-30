@@ -1,0 +1,81 @@
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+.weather {
+  display: flex;
+  justify-content: end;
+  color: white;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.login-form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 30px;
+}
+
+.clock-container {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+#clock {
+  margin-bottom: 0;
+  font-size: 90px;
+  color: white;
+}
+
+#greeting {
+  display: flex;
+  justify-content: center;
+  font-size: 80px;
+  color: white;
+  margin-bottom: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.todo-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+  color: white;
+}
+
+#todo-input {
+  width: 500px;
+}
+
+.todo-list {
+  list-style: none;
+  font-size: 20px;
+}
+
+#quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.quote {
+  font-family: 'Noto Sans KR', sans-serif;
+  bottom: 1rem;
+  font-size: 25px;
+  text-align: center;
+  width: 80%;
+}
+.author {
+  padding: 5px;
+  font-size: 18px;
+}
