@@ -5,7 +5,7 @@ const chosenImg = images[Math.floor(Math.random() * images.length)];
 
 // const bgImg = document.createElement('img');
 const body = document.querySelector('body');
-body.style.background = `url(/img/${chosenImg})`;
+body.style.background = `url(img/${chosenImg})`;
 body.style.backgroundSize = 'cover';
 body.style.backgroundRepeat = 'no-repeat';
 
